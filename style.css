@@ -1,0 +1,27 @@
+body {
+    background: #050D14;
+    margin: 160px 0;
+    text-align: center;
+}
+ul.tab-container {
+    font-weight: 800;
+    font-size: 36px;
+    color: #C8102E;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 49px;
+    cursor: pointer;
+}
+li.tab.tab-active {
+    background: #C8102E;
+    color: #050D14;
+}
+.swiper-slide {
+    width: 1184px;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
